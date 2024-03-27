@@ -11,6 +11,7 @@ class Categoria(models.Model):
     categoria = models.CharField(max_length=255, verbose_name="Categoría", unique=True)
     peso_min = models.DecimalField(max_digits=5, decimal_places=2)
     peso_max = models.DecimalField(max_digits=5, decimal_places=2)
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.categoria
@@ -49,6 +50,7 @@ class Combate(models.Model):
 class CodifResultado(models.Model):
     resul = models.CharField(max_length=255, verbose_name="resultado")
     descripcion = models.CharField(max_length=255, verbose_name="descripción")
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.resul
@@ -63,6 +65,7 @@ class Resultado(models.Model):
     combate = models.ForeignKey(Combate, on_delete=models.SET_NULL, null=True, blank=True)
     pugil = models.ForeignKey(Pugil, on_delete=models.SET_NULL, null=True, blank=True)
     resultado = models.ForeignKey(CodifResultado, on_delete=models.SET_NULL, null=True, blank=True)
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.pugil.deportista.nombre + ' ' + self.resultado.resul + ' en ' + self.combate.evento.nombre
@@ -77,6 +80,7 @@ class Golpe(models.Model):
     golpe = models.CharField(max_length=255, verbose_name="golpe")
     siglas = models.CharField(max_length=10, verbose_name="siglas", null=True, blank=True)
     efectivo = models.BooleanField(default=False, null=True, blank=True)
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.golpe
@@ -107,6 +111,7 @@ class ConfigGolpe(models.Model):
     user = models.ForeignKey(ExtendUser, on_delete=models.SET_NULL, null=True, blank=True)
     golpe = models.ForeignKey(Golpe, on_delete=models.SET_NULL, null=True, blank=True)
     tecla = models.CharField(max_length=255, verbose_name="tecla")
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.user.username + '-' + self.golpe.siglas + '-' + self.tecla

@@ -1,0 +1,115 @@
+[
+    {
+        "pk": "1",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso mosca (48-52 kg)",
+            "peso_min": "48.00 kg",
+            "peso_max": "52.00 kg",
+            "idioma": "es"
+            
+        }        
+    },
+    {
+        "pk": "2",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso pluma (52-57 kg)",
+            "peso_min": "52.00 kg",
+            "peso_max": "57.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "3",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso wélter (63-69 kg)",
+            "peso_min": "63.00 kg",
+            "peso_max": "69.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "4",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso medio (69-75 kg)",
+            "peso_min": "69.00 kg",
+            "peso_max": "75.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "5",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso semipesado (75-81 kg)",
+            "peso_min": "75.00 kg",
+            "peso_max": "81.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "5",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso superpesado (+91 kg)",
+            "peso_min": "91.00 kg",
+            "peso_max": "200.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "6",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso pesado (81-91 kg)",
+            "peso_min": "81.00 kg",
+            "peso_max": "91.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "6",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso ligero (57-63 kg)",
+            "peso_min": "57.00 kg",
+            "peso_max": "63.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "7",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"division 12-13",
+            "peso_min": "32.00 kg",
+            "peso_max": "50.00 kg",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "8",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Flyweight(48-52 kg)",
+            "peso_min": "48.00 kg",
+            "peso_max": "52.00 kg",
+            "idioma": "en"
+            
+        }        
+    },
+    {
+        "pk": "9",
+        "model": "Espannol.boxeo.Categoria",
+        "fields": {
+            "categoria":"Welterweight(63-69 kg)",
+            "peso_min": "63.00 kg",
+            "peso_max": "69.00 kg",
+            "idioma": "en"
+        }        
+    }
+    
+]

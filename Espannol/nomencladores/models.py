@@ -6,6 +6,7 @@ from django.db import models
 
 class TipoEvento(models.Model):
     tipo = models.CharField(max_length=250, verbose_name="Tipo de Evento")
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.tipo
@@ -19,6 +20,7 @@ class TipoEvento(models.Model):
 class Pais(models.Model):
     pais = models.CharField(max_length=250, verbose_name="País")
     siglas = models.CharField(max_length=250, verbose_name="Siglas")
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.pais
@@ -33,6 +35,7 @@ class Reglamento(models.Model):
     tipo = models.CharField(max_length=255, verbose_name="Reglamento", unique=True)
     cant_r = models.IntegerField(verbose_name="Cantidad de round")
     duracion = models.IntegerField(verbose_name="Duración")
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.tipo
@@ -49,6 +52,7 @@ class Evento(models.Model):
     tipoevento = models.ForeignKey(TipoEvento, on_delete=models.SET_NULL, null=True, blank=True)
     anno = models.PositiveIntegerField(verbose_name="Año")
     reglamento = models.ForeignKey(Reglamento, on_delete=models.SET_NULL, null=True, blank=True)
+    idioma = models.CharField(max_length=255,null=True, blank=True)
 
     def __str__(self):
         return self.nombre
