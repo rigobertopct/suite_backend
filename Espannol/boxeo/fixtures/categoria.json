@@ -51,7 +51,7 @@
         }        
     },
     {
-        "pk": "5",
+        "pk": "6",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"Peso superpesado (+91 kg)",
@@ -61,7 +61,7 @@
         }        
     },
     {
-        "pk": "6",
+        "pk": "7",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"Peso pesado (81-91 kg)",
@@ -71,7 +71,7 @@
         }        
     },
     {
-        "pk": "6",
+        "pk": "8",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"Peso ligero (57-63 kg)",
@@ -81,7 +81,7 @@
         }        
     },
     {
-        "pk": "7",
+        "pk": "9",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"division 12-13",
@@ -91,7 +91,7 @@
         }        
     },
     {
-        "pk": "8",
+        "pk": "10",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"Flyweight(48-52 kg)",
@@ -102,7 +102,7 @@
         }        
     },
     {
-        "pk": "9",
+        "pk": "11",
         "model": "Espannol.boxeo.Categoria",
         "fields": {
             "categoria":"Welterweight(63-69 kg)",
@@ -111,5 +111,6 @@
             "idioma": "en"
         }        
     }
+    
     
 ]
