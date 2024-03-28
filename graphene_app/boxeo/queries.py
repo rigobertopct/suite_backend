@@ -68,7 +68,7 @@ class ConfigGolpeType(DjangoObjectType):
 
 class Query(graphene.ObjectType):
     reglamentos = graphene.List(ReglamentoType, name=graphene.String())
-    categorias = graphene.List(CategoriaType, name=graphene.String())
+    categorias = graphene.List(CategoriaType, name=graphene.String(),idioma=graphene.String())
     pugiles = graphene.List(PugilType, name=graphene.String())
     combates = graphene.List(CombateType, name=graphene.String())
     codifResult = graphene.List(CodifResultadoType, name=graphene.String())
@@ -104,12 +104,12 @@ class Query(graphene.ObjectType):
         else:
             return Reglamento.objects.filter(tipo__icontains=name)
 
-    def resolve_categorias(self, info, name):
-        if name == "":
-            return Categoria.objects.all()
+    def resolve_categorias(self, info, name, idioma):
+        if name == "" and idioma != "":
+            return Categoria.objects.filter(idioma=idioma)
         else:
             return Categoria.objects.filter(
-                Q(categoria__icontains=name) | Q(peso_min__icontains=name) | Q(peso_max__icontains=name)
+                Q(categoria__icontains=name,idioma=idioma) | Q(peso_min__icontains=name,idioma=idioma) | Q(peso_max__icontains=name,idioma=idioma)
 
             )
 
