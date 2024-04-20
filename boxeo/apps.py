@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DeportesConfig(AppConfig):
+class BoxeoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Espannol.Deportes'
+    name = 'boxeo'

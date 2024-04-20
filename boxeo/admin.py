@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from Espannol.boxeo.models import *
+from boxeo.models import *
 
 
 @admin.register(Categoria)

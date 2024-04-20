@@ -1,9 +1,9 @@
 import graphene
 from graphene import Mutation
 
-from Espannol.boxeo.models import Golpe, ConfigGolpe
-from Espannol.nomencladores.models import Pais, TipoEvento, Evento, Reglamento
-from Espannol.seguridad.models import ExtendUser
+from boxeo.models import Golpe, ConfigGolpe
+from nomencladores.models import Pais, TipoEvento, Evento, Reglamento
+from seguridad.models import ExtendUser
 
 
 class NuevoPais(Mutation):
@@ -114,17 +114,18 @@ class NuevoEvento(Mutation):
         reglamento = graphene.Int(required=True)
         tipoevento = graphene.Int(required=True)
         anno = graphene.Int(required=True)
+        idioma = graphene.String()
 
     success = graphene.Boolean()
     errors = graphene.String()
 
-    def mutate(self, info, nombre, pais, reglamento, tipoevento, anno):
+    def mutate(self, info, nombre, pais, reglamento, tipoevento, anno, idioma):
         try:
             item_pais = Pais.objects.get(id=pais)
             item_reglamento = Reglamento.objects.get(id=reglamento)
             item_tipoevento = TipoEvento.objects.get(id=tipoevento)
             Evento.objects.create(nombre=nombre, pais=item_pais, reglamento=item_reglamento,
-                                  tipoevento=item_tipoevento, anno=anno)
+                                  tipoevento=item_tipoevento, anno=anno, idioma=idioma)
             return NuevoEvento(success=True, errors=None)
         except Exception as e:
             return NuevoEvento(success=False, errors=str(e))
@@ -138,17 +139,19 @@ class ActualizarEvento(Mutation):
         reglamento = graphene.Int(required=True)
         tipoevento = graphene.Int(required=True)
         anno = graphene.Int(required=True)
+        idioma = graphene.String()
 
     success = graphene.Boolean()
     errors = graphene.String()
 
-    def mutate(self, info, nombre, pais, reglamento, tipoevento, id, anno):
+    def mutate(self, info, nombre, pais, reglamento, tipoevento, id, anno, idioma):
         try:
             item = Evento.objects.get(id=id)
             item_pais = Pais.objects.get(id=pais)
             item_reglamento = Reglamento.objects.get(id=reglamento)
             item_tipoevento = TipoEvento.objects.get(id=tipoevento)
             item.nombre = nombre
+            item.idioma = idioma
             item.pais = item_pais
             item.anno = anno
             item.reglamento = item_reglamento

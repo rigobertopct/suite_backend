@@ -1,10 +1,10 @@
 import graphene
 from graphene import Mutation
 
-from Espannol.Deportes.models import Disciplina, Deporte
-from Espannol.deportista.models import Deportista, DeportistaDisciplina
-from Espannol.nomencladores.models import Pais
-from Espannol.seguridad.models import Provincia
+from Deportes.models import Disciplina, Deporte
+from deportista.models import Deportista, DeportistaDisciplina
+from nomencladores.models import Pais
+from seguridad.models import Provincia
 
 
 class NuevoDeportista(Mutation):
@@ -137,13 +137,14 @@ class NuevoDeporte(graphene.Mutation):
     class Arguments:
         nombre = graphene.String(required=True)
         siglas = graphene.String(required=True)
+        idioma = graphene.String()
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, siglas):
+    def mutate(self, info, nombre, siglas, idioma):
         try:
-            deporte = Deporte.objects.create(nombre=nombre, siglas=siglas)
+            deporte = Deporte.objects.create(nombre=nombre, siglas=siglas, idioma=idioma)
             return NuevoDeporte(success=True, error=None)
         except Exception as e:
             return NuevoDeporte(success=False, error=str(e))
@@ -154,14 +155,16 @@ class UpdateDeporte(graphene.Mutation):
         nombre = graphene.String(required=True)
         siglas = graphene.String(required=True)
         id = graphene.ID(required=True)
+        idioma = graphene.String()
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, siglas, id):
+    def mutate(self, info, nombre, siglas, id, idioma):
         try:
             deporte = Deporte.objects.get(id=id)
             deporte.nombre = nombre
+            deporte.idioma = idioma
             deporte.siglas = siglas
             deporte.save()
             return UpdateDeporte(success=True, error=None)
@@ -190,14 +193,15 @@ class NuevaDisciplina(graphene.Mutation):
         nombre = graphene.String(required=True)
         deporte = graphene.ID(required=True)
         codigo = graphene.String(required=True)
+        idioma = graphene.String(required=True)
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, deporte, codigo):
+    def mutate(self, info, nombre, deporte, codigo, idioma):
         try:
             item_deporte = Deporte.objects.get(id=deporte)
-            disciplina = Disciplina.objects.create(nombre=nombre, deporte=item_deporte, codigo=codigo)
+            disciplina = Disciplina.objects.create(nombre=nombre, deporte=item_deporte, codigo=codigo, idioma=idioma)
             return NuevaDisciplina(success=True, error=None)
         except Exception as e:
             return NuevaDisciplina(success=False, error=str(e))
@@ -209,15 +213,17 @@ class UpdateDisciplina(graphene.Mutation):
         deporte = graphene.ID(required=True)
         codigo = graphene.String(required=True)
         id = graphene.ID(required=True)
+        idioma = graphene.String(required=True)
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, deporte, codigo, id):
+    def mutate(self, info, nombre, deporte, codigo, id, idioma):
         try:
             deporte_item = Deporte.objects.get(id=deporte)
             disciplina = Disciplina.objects.get(id=id)
             disciplina.nombre = nombre
+            disciplina.idioma = idioma
             disciplina.codigo = codigo
             disciplina.deporte = deporte_item
             disciplina.save()

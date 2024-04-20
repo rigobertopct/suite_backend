@@ -1,13 +1,14 @@
 from django.db import models
 
-from Espannol.deportista.models import Deportista
-from Espannol.seguridad.models import Provincia
+from deportista.models import Deportista
+from seguridad.models import Provincia
 
 
 class Lugar(models.Model):
     nombre = models.CharField(max_length=100)
     is_active = models.BooleanField(default=True)
     provincia = models.ForeignKey(Provincia, on_delete=models.PROTECT)
+    idioma = models.CharField(max_length=255, verbose_name="Idioma", default="es")
 
     def __str__(self):
         return self.nombre
@@ -21,6 +22,7 @@ class Prueba(models.Model):
     observaciones = models.CharField(max_length=255, null=True, blank=True)
     etapa = models.CharField(max_length=255, null=True, blank=True)
     valoracion = models.CharField(max_length=255, null=True, blank=True)
+    idioma = models.CharField(max_length=255, verbose_name="Idioma", default="es")
 
     class Meta:
         verbose_name = 'prueba'
@@ -125,16 +127,56 @@ class Rast(models.Model):
         return (self.Potencia_maxima_method() - self.Potencia_minima_method()) / self.Sumatoria_tiempo_method()
 
     def Evaluacion_method(self):
-        return "Buena capacidad anaerobia" if self.Indice_fatiga_method() < 10 else "Baja capacidad anaerobia"
+        respuesta = ""
+        if self.Indice_fatiga_method() < 10:
+            if self.prueba.idioma == 'es':
+                respuesta = "Buena capacidad anaerobia"
+            elif self.prueba.idioma == 'ru':
+                respuesta = "Хорошая анаэробная способность"
+            elif self.prueba.idioma == 'in':
+                respuesta = "Good anaerobic capacity"
+            elif self.prueba.idioma == 'fr':
+                respuesta = "Bonne capacité anaérobie"
+        else:
+            if self.prueba.idioma == 'es':
+                respuesta = "Baja capacidad anaerobia"
+            elif self.prueba.idioma == 'ru':
+                respuesta = "Низкая анаэробная способность"
+            elif self.prueba.idioma == 'in':
+                respuesta = "Low anaerobic capacity"
+            elif self.prueba.idioma == 'fr':
+                respuesta = "Faible capacité anaérobie"
+        return respuesta
 
     def Normalidad_potencia_maxima_method(self):
         resultado = ""
         if self.Potencia_maxima_method() < 676:
-            resultado = "Baja"
+            if self.prueba.idioma == 'es':
+                resultado = "Baja"
+            elif self.prueba.idioma == 'ru':
+                resultado = "Низкий"
+            elif self.prueba.idioma == 'in':
+                resultado = "Low"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Faible"
         if 676 <= self.Potencia_maxima_method() <= 1054:
-            resultado = "Normal"
+            if self.prueba.idioma == 'es':
+                resultado = "Normal"
+            elif self.prueba.idioma == 'ru':
+                resultado = "Нормальный"
+            elif self.prueba.idioma == 'in':
+                resultado = "Normal"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Normale"
         if self.Potencia_maxima_method() > 1054:
-            resultado = "Alta"
+            if self.prueba.idioma == 'es':
+                resultado = "Alta"
+            elif self.prueba.idioma == 'ru':
+                resultado = "высокий"
+            elif self.prueba.idioma == 'in':
+                resultado = "High"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Haut"
         return resultado
 
     def save(self, *args, **kwargs):
@@ -213,12 +255,35 @@ class Carlson(models.Model):
         return self.frecuencia_cardiaca_despues - self.frecuencia_cardiaca_antes
 
     def Evaluación(self):
+        resultado = ""
         if self.Indice_calidad() > 1:
-            return "Organismo entrenado"
-        if self.Indice_calidad() > 0.5:
-            return "Normal"
+            if self.prueba.idioma == 'es':
+                resultado = "Organismo entrenado"
+            elif self.prueba.idioma == 'ru':
+                resultado = "Тренированный организм"
+            elif self.prueba.idioma == 'in':
+                resultado = "Trained organism"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Organisme formé"
+        elif 0.5 < self.Indice_calidad() < 1:
+            if self.prueba.idioma == 'es':
+                resultado = "Normal"
+            elif self.prueba.idioma == 'ru':
+                resultado = "Нормальный"
+            elif self.prueba.idioma == 'in':
+                resultado = "Normal"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Normale"
         else:
-            return "Poca adaptación al esfuerzo"
+            if self.prueba.idioma == 'es':
+                resultado = "Poca adaptación al esfuerzo"
+            elif self.prueba.idioma == 'ru':
+                resultado = "Небольшая адаптация к усилию"
+            elif self.prueba.idioma == 'in':
+                resultado = "Little adaptation to effort"
+            elif self.prueba.idioma == 'fr':
+                resultado = "Peu d'adaptation à l'effort"
+        return resultado
 
     def save(self, *args, **kwargs):
         self.presion_artereal_diferencial_antes = self.Presion_artereal_diferencial_antes()

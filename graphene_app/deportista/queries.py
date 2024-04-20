@@ -1,9 +1,9 @@
 import graphene
 from graphene_django import DjangoObjectType
 
-from Espannol.Deportes.models import Deporte, Disciplina
-from Espannol.deportista.models import Deportista, DeportistaDisciplina
-from Espannol.seguridad.models import Provincia
+from Deportes.models import Deporte, Disciplina
+from deportista.models import Deportista, DeportistaDisciplina
+from seguridad.models import Provincia
 
 
 class DeportistaType(DjangoObjectType):
@@ -38,8 +38,8 @@ class ProvinciaType(DjangoObjectType):
 
 class Query(graphene.ObjectType):
     deportistas = graphene.List(DeportistaType, name=graphene.String())
-    deportes = graphene.List(DeporteType, name=graphene.String())
-    disciplinas = graphene.List(DisciplinaType, name=graphene.String())
+    deportes = graphene.List(DeporteType, name=graphene.String(), idioma=graphene.String())
+    disciplinas = graphene.List(DisciplinaType, name=graphene.String(), idioma=graphene.String())
 
     def resolve_deportistas(self, info, name):
         if name == "":
@@ -47,14 +47,14 @@ class Query(graphene.ObjectType):
         else:
             return Deportista.objects.filter(nombre__icontains=name)
 
-    def resolve_disciplinas(self, info, name):
+    def resolve_disciplinas(self, info, name, idioma):
         if name == "":
-            return Disciplina.objects.all()
+            return Disciplina.objects.all().filter(idioma=idioma)
         else:
-            return Disciplina.objects.filter(nombre__icontains=name)
+            return Disciplina.objects.filter(nombre__icontains=name).filter(idioma=idioma)
 
-    def resolve_deportes(self, info, name):
+    def resolve_deportes(self, info, name, idioma):
         if name == "":
-            return Deporte.objects.all()
+            return Deporte.objects.all().filter(idioma=idioma)
         else:
-            return Deporte.objects.filter(nombre__icontains=name)
+            return Deporte.objects.filter(nombre__icontains=name).filter(idioma=idioma)

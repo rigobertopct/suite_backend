@@ -2,9 +2,9 @@ from django.db import models
 # Create your models here.
 from django.db.models import SET_NULL
 
-from Espannol.Deportes.models import Disciplina, Deporte
-from Espannol.nomencladores.models import Pais
-from Espannol.seguridad.models import Provincia
+from Deportes.models import Disciplina, Deporte
+from nomencladores.models import Pais
+from seguridad.models import Provincia
 
 
 class Deportista(models.Model):

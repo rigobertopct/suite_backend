@@ -2,7 +2,7 @@ import graphene
 from django.contrib.auth.models import Group
 from graphene import Mutation
 
-from Espannol.seguridad.models import ExtendUser
+from seguridad.models import ExtendUser
 
 
 class CrearUsuario(Mutation):

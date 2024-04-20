@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'jazzmin',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,12 +39,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # .....Apps
-    'Espannol.boxeo.apps.BoxeoConfig',
-    'Espannol.deportista.apps.DeportistaConfig',
+    'boxeo.apps.BoxeoConfig',
+    'deportista.apps.DeportistaConfig',
     'graphene_app.apps.GrapheneAppConfig',
-    'Espannol.nomencladores.apps.NomencladoresConfig',
-    'Espannol.seguridad.apps.SeguridadConfig',
-    "Espannol.Deportes.apps.DeportesConfig",
+    'nomencladores.apps.NomencladoresConfig',
+    'seguridad.apps.SeguridadConfig',
+    "Deportes.apps.DeportesConfig",
     # .....modulos
     'graphene_django',
     'graphql_jwt.refresh_token.apps.RefreshTokenConfig',
@@ -51,25 +52,7 @@ INSTALLED_APPS = [
     'corsheaders',
     "graphene_file_upload",
     "rest_framework",
-    "Espannol.pruebas.apps.PruebasConfig"
-#     "Ruso.boxeo_ruso.apps.BoxeoRusoConfig",
-#     "Ingles.boxeo_ingles.apps.BoxeoInglesConfig",
-#     "Frances.boxeo_frances.apps.BoxeoFrancesConfig",
-#     "Frances.Deportes_frances.apps.DeportesFrancesConfig",
-#     "Ingles.Deportes_ingles.apps.DeportesInglesConfig",
-#     "Ruso.Deportes_ruso.apps.DeportesRusoConfig",
-#     "Frances.deportista_frances.apps.DeportistaFrancesConfig",
-#     "Ingles.deportista_ingles.apps.DeportistaInglesConfig",
-#     "Ruso.deportista_ruso.apps.DeportistaRusoConfig",
-#     "Ruso.nomencladores_ruso.apps.NomencladoresRusoConfig",
-#     "Ingles.nomencladores_ingles.apps.NomencladoresInglesConfig",
-#     "Frances.nomencladores_frances.apps.NomencladoresFrancesConfig",
-#     "Frances.pruebas_frances.apps.PruebasFrancesConfig",
-#     "Ingles.pruebas_ingles.apps.PruebasInglesConfig",
-#     "Ruso.pruebas_ruso.apps.PruebasRusoConfig",
-#     "Ingles.seguridad_ingles.apps.SeguridadInglesConfig",
-#     "Frances.seguridad_frances.apps.SeguridadFrancesConfig",
-#     "seguridad_ruso.apps.SeguridadRusoConfig"
+    "pruebas.apps.PruebasConfig"
 ]
 
 MIDDLEWARE = [
@@ -208,3 +191,10 @@ GRAPHQL_JWT = {
 REGISTER_MUTATION_FIELDS = ["email", "username"]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+JAZZMIN_SETTINGS = {
+    "login_logo": None,
+    "welcome_sign": "Administración de la Suite",
+    "copyright": "Suite de inteligencia del deporte",
+    "changeform_format": "carousel_tabs",
+    "related_modal_active": True
+}

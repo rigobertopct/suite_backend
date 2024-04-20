@@ -1,21 +1,22 @@
 import graphene
 from graphene import Mutation
 
-from Espannol.pruebas.models import *
+from pruebas.models import *
 
 
 class NuevoLugar(graphene.Mutation):
     class Arguments:
         nombre = graphene.String(required=True)
         provincia = graphene.ID()
+        idioma = graphene.String(required=True)
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, provincia):
+    def mutate(self, info, nombre, provincia, idioma):
         try:
             item_provincia = Provincia.objects.get(id=provincia)
-            Lugar.objects.create(nombre=nombre, provincia=item_provincia)
+            Lugar.objects.create(nombre=nombre, provincia=item_provincia, idioma=idioma)
             return NuevoLugar(success=True, error=None)
         except Exception as e:
             return NuevoLugar(success=False, error=str(e))
@@ -26,15 +27,17 @@ class UpdateLugar(graphene.Mutation):
         id = graphene.ID(required=True)
         provincia = graphene.ID(required=True)
         nombre = graphene.String(required=True)
+        idioma = graphene.String(required=True)
 
     success = graphene.Boolean()
     error = graphene.String()
 
-    def mutate(self, info, nombre, id, provincia):
+    def mutate(self, info, nombre, id, provincia, idioma):
         try:
             item_provincia = Provincia.objects.get(id=provincia)
             lugar = Lugar.objects.get(id=id)
             lugar.nombre = nombre
+            lugar.idioma = idioma
             lugar.provincia = item_provincia
             lugar.save()
             return UpdateLugar(success=True, error=None)
@@ -64,11 +67,12 @@ class NuevaPrueba(Mutation):
         deportista = graphene.ID()
         lugar = graphene.ID()
         etapa = graphene.String(required=True)
+        idioma = graphene.String(required=True)
 
     success = graphene.Boolean()
     errors = graphene.String()
 
-    def mutate(self, info, fecha, deportista, lugar, etapa):
+    def mutate(self, info, fecha, deportista, lugar, etapa, idioma):
         try:
             item_deportista = Deportista.objects.get(id=deportista)
             item_lugar = Lugar.objects.get(id=lugar)
@@ -76,7 +80,8 @@ class NuevaPrueba(Mutation):
                 fecha=fecha,
                 deportista=item_deportista,
                 lugar=item_lugar,
-                etapa=etapa
+                etapa=etapa,
+                idioma=idioma
             )
             return NuevaPrueba(success=True, errors=None)
         except Exception as e:

@@ -1,0 +1,16 @@
+[
+    {
+        "model": "nomencladores.TipoEvento",
+        "fields": {
+            "tipo":"Чемпионат мира",
+            "idioma": "ru"
+        }        
+    },
+    {
+        "model": "nomencladores.TipoEvento",
+        "fields": {
+            "tipo":"Олимпийские игры",
+            "idioma": "ru"
+        }
+    }
+]

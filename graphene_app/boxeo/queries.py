@@ -2,8 +2,10 @@ import graphene
 from django.db.models import Q
 from graphene_django import DjangoObjectType
 
-from Espannol.boxeo.models import *
-from Espannol.nomencladores.models import Reglamento
+from boxeo.models import *
+from deportista.models import *
+from nomencladores.models import *
+from seguridad.models import *
 
 
 class ReglamentoType(DjangoObjectType):
@@ -67,13 +69,13 @@ class ConfigGolpeType(DjangoObjectType):
 
 
 class Query(graphene.ObjectType):
-    reglamentos = graphene.List(ReglamentoType, name=graphene.String())
-    categorias = graphene.List(CategoriaType, name=graphene.String(),idioma=graphene.String())
+    reglamentos = graphene.List(ReglamentoType, name=graphene.String(), idioma=graphene.String())
+    categorias = graphene.List(CategoriaType, name=graphene.String(), idioma=graphene.String())
     pugiles = graphene.List(PugilType, name=graphene.String())
-    combates = graphene.List(CombateType, name=graphene.String())
-    codifResult = graphene.List(CodifResultadoType, name=graphene.String())
+    combates = graphene.List(CombateType, name=graphene.String(), idioma=graphene.String())
+    codifResult = graphene.List(CodifResultadoType, name=graphene.String(), idioma=graphene.String())
     resultados = graphene.List(ResultadoType, name=graphene.String())
-    golpes = graphene.List(GolpeType, name=graphene.String())
+    golpes = graphene.List(GolpeType, name=graphene.String(), idioma=graphene.String())
     contGolpes = graphene.List(ContadorGolpesType, combate=graphene.Int(), pugil=graphene.Int(),
                                round=graphene.Int())
     configGolpes = graphene.List(ConfigGolpeType, name=graphene.String(), usuario=graphene.Int())
@@ -98,20 +100,20 @@ class Query(graphene.ObjectType):
         combate = Combate.objects.get(id=id)
         return combate
 
-    def resolve_reglamentos(self, info, name):
+    def resolve_reglamentos(self, info, name, idioma):
         if name == "":
-            return Reglamento.objects.all()
+            return Reglamento.objects.all().filter(idioma=idioma)
         else:
             return Reglamento.objects.filter(tipo__icontains=name)
 
     def resolve_categorias(self, info, name, idioma):
-        if name == "" and idioma != "":
-            return Categoria.objects.filter(idioma=idioma)
+        if name == "":
+            return Categoria.objects.all().filter(idioma=idioma)
         else:
             return Categoria.objects.filter(
-                Q(categoria__icontains=name,idioma=idioma) | Q(peso_min__icontains=name,idioma=idioma) | Q(peso_max__icontains=name,idioma=idioma)
+                Q(categoria__icontains=name) | Q(peso_min__icontains=name) | Q(peso_max__icontains=name)
 
-            )
+            ).filter(idioma=idioma)
 
     def resolve_pugiles(self, info, name):
         if name == "":
@@ -123,24 +125,24 @@ class Query(graphene.ObjectType):
                     categoria__categoria__icontains=name) | Q(deportista__pais__pais__icontains=name)
             )
 
-    def resolve_combates(self, info, name):
+    def resolve_combates(self, info, name, idioma):
         if name == "":
-            return Combate.objects.all()
+            return Combate.objects.all().filter(idioma=idioma)
         else:
             return Combate.objects.filter(
                 Q(fecha__icontains=name) | Q(esquinaA__deportista__nombre__icontains=name) | Q(
                     esquinaR__deportista__nombre__icontains=name) | Q(evento__nombre__icontains=name)
 
-            )
+            ).filter(idioma=idioma)
 
-    def resolve_codifResult(self, info, name):
+    def resolve_codifResult(self, info, name, idioma):
         if name == "":
-            return CodifResultado.objects.all()
+            return CodifResultado.objects.all().filter(idioma=idioma)
         else:
             return CodifResultado.objects.filter(
                 Q(resul__icontains=name) | Q(descripcion__icontains=name)
 
-            )
+            ).filter(idioma=idioma)
 
     def resolve_resultados(self, info, name):
         if name == "":
@@ -152,14 +154,14 @@ class Query(graphene.ObjectType):
 
             )
 
-    def resolve_golpes(self, info, name):
+    def resolve_golpes(self, info, name, idioma):
         if name == "":
-            return Golpe.objects.all()
+            return Golpe.objects.all().filter(idioma=idioma)
         else:
             return Golpe.objects.filter(
                 Q(golpe__icontains=name) | Q(siglas__icontains=name) | Q(efectivo__icontains=name)
 
-            )
+            ).filter(idioma=idioma)
 
     def resolve_contGolpes(self, info, combate, pugil, round):
         comb = Combate.objects.get(id=combate)

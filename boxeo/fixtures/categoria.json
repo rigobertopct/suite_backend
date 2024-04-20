@@ -1,0 +1,186 @@
+[
+    {
+        "pk": "1",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Mosca Ligero (46-49 kg)",
+            "peso_min": "46.00",
+            "peso_max": "49.00",
+            "idioma": "es"
+            
+        }        
+    },
+    {
+        "pk": "2",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Mosca (+49-52 kg)",
+            "peso_min": "49.00",
+            "peso_max": "52.00",
+            "idioma": "es"
+
+        }
+    },
+    {
+        "pk": "3",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Gallo (+52-56 kg)",
+            "peso_min": "52.00",
+            "peso_max": "56.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "4",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Ligero (+56-60 kg)",
+            "peso_min": "56.00",
+            "peso_max": "60.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "5",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Wélter (+64-69 kg)",
+            "peso_min": "64.00",
+            "peso_max": "69.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "6",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Medio (+69-75 kg)",
+            "peso_min": "69.00",
+            "peso_max": "75.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "7",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Semipesado (+75-81 kg)",
+            "peso_min": "75.00",
+            "peso_max": "81.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "8",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Pesado (+81-91 kg)",
+            "peso_min": "81.00",
+            "peso_max": "91.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "9",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Peso Superpesado (+91 kg)",
+            "peso_min": "91.00",
+            "peso_max": "200.00",
+            "idioma": "es"
+        }        
+    },
+    {
+        "pk": "10",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Легкий наилегчайший вес (46-49 кг)",
+            "peso_min": "46.00",
+            "peso_max": "49.00",
+            "idioma": "ru"
+
+        }
+    },
+    {
+        "pk": "11",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"наилегчайший вес (+49-52 кг)",
+            "peso_min": "49.00",
+            "peso_max": "52.00",
+            "idioma": "ru"
+
+        }
+    },
+    {
+        "pk": "12",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Легчайший вес (+52-56 кг)",
+            "peso_min": "52.00",
+            "peso_max": "56.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "13",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Легкий вес (+56-60 кг)",
+            "peso_min": "56.00",
+            "peso_max": "60.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "14",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Полусредний вес (+60-64 кг)",
+            "peso_min": "64.00",
+            "peso_max": "69.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "15",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Вельтер вес (+64-69 кг)",
+            "peso_min": "69.00",
+            "peso_max": "75.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "16",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Средний вес (+69-75 кг)",
+            "peso_min": "75.00",
+            "peso_max": "81.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "17",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Полутяжелый вес (+75-81 кг)",
+            "peso_min": "81.00",
+            "peso_max": "91.00",
+            "idioma": "ru"
+        }
+    },
+    {
+        "pk": "18",
+        "model": "boxeo.Categoria",
+        "fields": {
+            "categoria":"Тяжелый вес (+81-91 кг)",
+            "peso_min": "91.00",
+            "peso_max": "200.00",
+            "idioma": "ru"
+        }
+    }
+]

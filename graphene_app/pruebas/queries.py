@@ -1,7 +1,7 @@
 from django.db.models import Q
 
 from graphene_app.deportista.queries import *
-from Espannol.pruebas.models import *
+from pruebas.models import *
 
 
 class RastType(DjangoObjectType):
@@ -37,9 +37,9 @@ class PruebaType(DjangoObjectType):
 class Query(graphene.ObjectType):
     rast = graphene.List(RastType)
     carlson = graphene.List(CarlsonType)
-    lugares = graphene.List(LugarType, name=graphene.String())
+    lugares = graphene.List(LugarType, name=graphene.String(), idioma=graphene.String())
     provincias = graphene.List(ProvinciaType)
-    pruebas = graphene.List(PruebaType, name=graphene.String())
+    pruebas = graphene.List(PruebaType, name=graphene.String(), idioma=graphene.String())
 
     verificar_pruebas_rast = graphene.Boolean(id=graphene.ID())
     verificar_pruebas_carlson = graphene.Boolean(id=graphene.ID())
@@ -53,24 +53,24 @@ class Query(graphene.ObjectType):
     def resolve_carlson(self, info):
         return Carlson.objects.all()
 
-    def resolve_lugares(self, info, name):
+    def resolve_lugares(self, info, name, idioma):
         if name == "":
-            return Lugar.objects.all()
+            return Lugar.objects.all().filter(idioma=idioma)
         else:
-            return Lugar.objects.filter(nombre__icontains=name)
+            return Lugar.objects.filter(nombre__icontains=name).filter(idioma=idioma)
 
     def resolve_provincias(self, info):
         return Provincia.objects.all()
 
-    def resolve_pruebas(self, info, name):
+    def resolve_pruebas(self, info, name, idioma):
         if name == "":
-            return Prueba.objects.all()
+            return Prueba.objects.all().filter(idioma=idioma)
         else:
             return Prueba.objects.filter(
                 Q(deportista__nombre__icontains=name) |
                 Q(deportista__disciplina__deporte__nombre__icontains=name) |
                 Q(deportista__sexo__icontains=name)
-            )
+            ).filter(idioma=idioma)
 
     def resolve_verificar_pruebas_rast(self, info, id):
         return Rast.objects.filter(prueba_id=id)

@@ -3,7 +3,7 @@ from django.contrib.auth.models import Group
 from django.db.models import Q
 from graphene_django import DjangoObjectType
 
-from Espannol.seguridad.models import ExtendUser
+from seguridad.models import ExtendUser
 
 
 class UserType(DjangoObjectType):

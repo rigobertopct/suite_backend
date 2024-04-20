@@ -1,11 +1,11 @@
 import graphene
 from graphene import Mutation
 
-from Espannol.Deportes.models import Deporte, Disciplina
-from Espannol.boxeo.models import *
-from Espannol.deportista.models import Deportista, DeportistaDisciplina
-from Espannol.nomencladores.models import Pais, Evento, Reglamento
-from Espannol.seguridad.models import Provincia
+from Deportes.models import Deporte, Disciplina
+from boxeo.models import CodifResultado, Categoria, Pugil, Combate, Golpe, ContadorGolpes
+from deportista.models import Deportista, DeportistaDisciplina
+from nomencladores.models import Pais, Evento, Reglamento
+from seguridad.models import Provincia
 from .queries import CombateType
 
 
@@ -274,19 +274,20 @@ class NuevoCombate(Mutation):
         esquinaA = graphene.Int(required=False)
         esquinaR = graphene.Int(required=False)
         evento = graphene.Int(required=True)
+        idioma=graphene.String()
 
     success = graphene.Boolean()
     errors = graphene.String()
     combate = graphene.Field(CombateType)
 
-    def mutate(self, info, fecha, esquinaA, esquinaR, evento, nombre):
+    def mutate(self, info, fecha, esquinaA, esquinaR, evento, nombre, idioma):
         try:
             item_fecha = fecha
             item_esquinaA = Pugil.objects.get(id=esquinaA)
             item_esquinaR = Pugil.objects.get(id=esquinaR)
             item_evento = Evento.objects.get(id=evento)
             combate = Combate.objects.create(fecha=item_fecha, esquinaA=item_esquinaA, esquinaR=item_esquinaR,
-                                             evento=item_evento, nombre=nombre)
+                                             evento=item_evento, nombre=nombre, idioma=idioma)
             return NuevoCombate(success=True, errors=None, combate=combate)
         except Exception as e:
             return NuevoCombate(success=False, errors=str(e), combate=None)
@@ -297,7 +298,7 @@ class ActualizarCombate(Mutation):
         id = graphene.Int(required=True)
         fecha = graphene.Date(required=False)
         esquinaA = graphene.Int(required=False)
-        esquinaR = graphene.Decimal(required=False)
+        esquinaR = graphene.Int(required=False)
         evento = graphene.Int(required=True)
 
     success = graphene.Boolean()

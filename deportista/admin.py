@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from Espannol.deportista.models import Deportista, DeportistaDisciplina
+from deportista.models import *
 
 
 # Register your models here.

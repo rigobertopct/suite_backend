@@ -1,0 +1,362 @@
+[
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe que ocasiona Nockout con la mano trasera",
+            "siglas": "GONT",
+            "efectivo": "True",
+            "idioma": "es"
+        }        
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe que ocasiona conteo con la mano trasera",
+            "siglas": "GOCT",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado a la cabeza con la mano delantera",
+            "siglas": "GCLCDE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado a la cabeza con la mano Trasera",
+            "siglas": "GCLCTE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado al tronco con la Mano Delantera",
+            "siglas": "GRLTDE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado al tronco con la Mano Trasera",
+            "siglas": "GRLTTE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado al tronco con la mano Delantera",
+            "siglas": "GCLTDE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado al tronco con la mano Trasera",
+            "siglas": "GCLTTE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado a la cabeza con la mano delantera",
+            "siglas": "GRLCD",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado a la cabeza con la mano Delantera",
+            "siglas": "GCLCD",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado al tronco con la Mano Delantera",
+            "siglas": "GRLTD",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado al tronco con la mano Delantera",
+            "siglas": "GCLTD",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe que ocasiona Nockout con la mano delantera",
+            "siglas": "GOND",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe que ocasiona conteo con la mano delantera",
+            "siglas": "GOCD",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado a la cabeza con la mano Trasera",
+            "siglas": "GRLCT",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado a la cabeza con la mano Trasera",
+            "siglas": "GCLCT",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado al tronco con la Mano Trasera",
+            "siglas": "GRLTT",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Cruzado Lanzado al tronco con la mano Trasera",
+            "siglas": "GCLTT",
+            "efectivo": "False",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado a la cabeza con la mano Trasera",
+            "siglas": "GRLCTE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Golpe Recto Lanzado a la cabeza con la mano delantera",
+            "siglas": "GRLCDE",
+            "efectivo": "True",
+            "idioma": "es"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Нокаутирующий удар задней рукой",
+            "siglas": "GONT",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Нокдаун задней рукой",
+            "siglas": "GOCT",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс передней рукой в голову",
+            "siglas": "GCLCDE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс задней рукой в голову",
+            "siglas": "GCLCTE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар передней рукой в корпус",
+            "siglas": "GRLTDE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар задней рукой в корпус",
+            "siglas": "GRLTTE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс передней рукой в корпус",
+            "siglas": "GCLTDE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс задней рукой в корпус",
+            "siglas": "GCLTTE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар передней рукой в голову",
+            "siglas": "GRLCD",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс передней рукой в голову",
+            "siglas": "GCLCD",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар передней рукой в корпус",
+            "siglas": "GRLTD",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс передней рукой в корпус",
+            "siglas": "GCLTD",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Нокаутирующий удар передней рукой",
+            "siglas": "GOND",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Нокдаун передней рукой",
+            "siglas": "GOCD",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар задней рукой в голову",
+            "siglas": "GRLCT",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс задней рукой в голову",
+            "siglas": "GCLCT",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар задней рукой в корпус",
+            "siglas": "GRLTT",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Кросс задней рукой в корпус",
+            "siglas": "GCLTT",
+            "efectivo": "False",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар задней рукой в голову",
+            "siglas": "GRLCTE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    },
+    {
+        "model": "boxeo.Golpe",
+        "fields": {
+            "golpe":"Прямой удар передней рукой в голову",
+            "siglas": "GRLCDE",
+            "efectivo": "True",
+            "idioma": "ru"
+        }
+    }
+]
