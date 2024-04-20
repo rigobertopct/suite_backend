@@ -1,0 +1,16 @@
+[
+  {
+    "model": "pruebas.prueba",
+    "pk": 1,
+    "fields": {
+      "fecha": "2024-04-20",
+      "deportista": 1,
+      "lugar": 1,
+      "archivo": "",
+      "observaciones": null,
+      "etapa": "Cпециальная подготовка",
+      "valoracion": null,
+      "idioma": "ru"
+    }
+  }
+]

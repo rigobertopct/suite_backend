@@ -1,0 +1,20 @@
+[
+  {
+    "model": "boxeo.pugil",
+    "pk": 1,
+    "fields": {
+      "deportista": 15,
+      "categoria": 13,
+      "ranking": "99"
+    }
+  },
+  {
+    "model": "boxeo.pugil",
+    "pk": 2,
+    "fields": {
+      "deportista": 16,
+      "categoria": 13,
+      "ranking": "98"
+    }
+  }
+]

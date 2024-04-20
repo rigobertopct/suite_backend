@@ -1,0 +1,20 @@
+[
+  {
+    "model": "boxeo.codifresultado",
+    "pk": 1,
+    "fields": {
+      "resul": "Победа",
+      "descripcion": "Единогласное решение",
+      "idioma": "ru"
+    }
+  },
+  {
+    "model": "boxeo.codifresultado",
+    "pk": 2,
+    "fields": {
+      "resul": "Поражение",
+      "descripcion": "Единогласное решение",
+      "idioma": "ru"
+    }
+  }
+]

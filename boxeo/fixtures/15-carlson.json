@@ -1,0 +1,37 @@
+[
+  {
+    "model": "pruebas.carlson",
+    "pk": 1,
+    "fields": {
+      "prueba": 1,
+      "frecuencia_cardiaca_antes": 100,
+      "frecuencia_cardiaca_despues": 200,
+      "frecuencia_cardiaca_min_uno": 140,
+      "frecuencia_cardiaca_min_tres": 150,
+      "frecuencia_cardiaca_min_cinco": 160,
+      "frecuencia_cardiaca_min_siete": 100,
+      "presion_sistolica_antes": "100.00",
+      "presion_diastolica_antes": "100.00",
+      "presion_sistolica_despues": "120.00",
+      "presion_diastolica_despues": "130.00",
+      "contactos_uno": 20,
+      "contactos_dos": 21,
+      "contactos_tres": 25,
+      "contactos_quatro": 22,
+      "contactos_cinco": 12,
+      "contactos_seis": 24,
+      "contactos_siete": 24,
+      "contactos_ocho": 23,
+      "contactos_nueve": 20,
+      "contactos_diez": 24,
+      "presion_artereal_diferencial_antes": "0.00",
+      "presion_artereal_diferencial_despues": "-10.00",
+      "sumatoria_contactos": 215,
+      "reserva_frecuencia": 100,
+      "sumatoria_latidos_recuperacion": 550,
+      "potencia_latidos": "0.39",
+      "indice_calidad": "-0.10",
+      "evaluacion": "Небольшая адаптация к усилию"
+    }
+  }
+]

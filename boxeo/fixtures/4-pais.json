@@ -1,0 +1,18 @@
+[
+  {
+    "model": "nomencladores.pais",
+    "pk": 1,
+    "fields": {
+      "pais": "Cuba",
+      "siglas": "CUB"
+    }
+  },
+  {
+    "model": "nomencladores.pais",
+    "pk": 2,
+    "fields": {
+      "pais": "Rusia",
+      "siglas": "RUS"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "model": "pruebas.lugar",
+    "pk": 1,
+    "fields": {
+      "nombre": "Prueba",
+      "is_active": true,
+      "provincia": 1,
+      "idioma": "ru"
+    }
+  }
+]

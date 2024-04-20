@@ -1,0 +1,14 @@
+[
+  {
+    "model": "boxeo.combate",
+    "pk": 8,
+    "fields": {
+      "nombre": "Обучение",
+      "esquinaR": 1,
+      "esquinaA": 2,
+      "evento": 2,
+      "fecha": "2024-04-20",
+      "idioma": "ru"
+    }
+  }
+]

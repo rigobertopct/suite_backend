@@ -1,0 +1,22 @@
+[
+  {
+    "model": "nomencladores.reglamento",
+    "pk": 1,
+    "fields": {
+      "tipo": "Olimpico",
+      "cant_r": 3,
+      "duracion": 180,
+      "idioma": "es"
+    }
+  },
+  {
+    "model": "nomencladores.reglamento",
+    "pk": 2,
+    "fields": {
+      "tipo": "Олимпийские",
+      "cant_r": 3,
+      "duracion": 180,
+      "idioma": "ru"
+    }
+  }
+]

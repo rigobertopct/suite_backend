@@ -1,0 +1,3621 @@
+[
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 1,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:12"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 2,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:11"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 3,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:6"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 4,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:6"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 5,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:6"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 6,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:5"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 7,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:5"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 8,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:5"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 9,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:5"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 10,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:4"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 11,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:4"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 12,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:4"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 13,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:3"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 14,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:3"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 15,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:3"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 16,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:3"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 17,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 18,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 19,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 20,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 21,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 22,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:2"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 23,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 24,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 25,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 26,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 27,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 28,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 29,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 30,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 31,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:1"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 32,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 33,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 34,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 35,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 36,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 37,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 38,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 39,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 40,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 41,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 42,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 43,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 44,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 45,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "1:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 46,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "1:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 47,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "3:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 48,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 49,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 50,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 51,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 52,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 53,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 54,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 55,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 56,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 57,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 58,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 59,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 60,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 61,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 62,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 63,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 64,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 65,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 66,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 67,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 68,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 69,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 70,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 71,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 72,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 73,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 74,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 75,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 76,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 77,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 78,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 79,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 80,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 81,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 82,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 83,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 84,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 85,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 86,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 87,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 88,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 89,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 90,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 91,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 92,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 93,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 94,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 95,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 96,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 97,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 98,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 99,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 100,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 101,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 102,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 103,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 104,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 105,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 106,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 107,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 108,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 109,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 110,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 111,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 112,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 113,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 114,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 115,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 116,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 117,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 118,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 119,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 120,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 121,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 122,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 123,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 124,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 125,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 126,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 127,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 128,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 129,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 130,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 131,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 132,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 133,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 134,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 135,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 136,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 137,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 138,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 139,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 140,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 141,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 142,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 143,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 144,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 145,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 146,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 147,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 148,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 149,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 150,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 151,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 152,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 153,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 154,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 155,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 156,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 157,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 158,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 159,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 1,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 160,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 161,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 162,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 163,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 164,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 165,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 166,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 167,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 168,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 169,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 170,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 171,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 172,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 173,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 174,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 175,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 176,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 177,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 178,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 179,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 180,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 181,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 182,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 183,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 184,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 185,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 186,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 187,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 188,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 189,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 190,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 191,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 192,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 193,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 194,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 195,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 196,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 197,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 198,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 199,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 200,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 201,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 202,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 203,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 204,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 205,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 206,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 207,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 208,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 209,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 210,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 211,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 212,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 213,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 214,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 215,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 216,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 217,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 218,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 219,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 220,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 1,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 221,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "3:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 222,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "3:0"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 223,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 224,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 225,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 226,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 227,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 228,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 229,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 230,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 231,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 232,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 233,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 234,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 235,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 236,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 237,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 238,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 239,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 240,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 241,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 242,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 243,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 244,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 245,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 246,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 247,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 248,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 249,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 250,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 251,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 252,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 253,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 254,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 255,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 256,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 257,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 258,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 259,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 260,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 261,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 262,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 263,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 264,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 265,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 266,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 267,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 268,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 269,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 270,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 271,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 272,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 273,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 274,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 275,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 276,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 277,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:54"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 278,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 279,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 280,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 281,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 282,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 283,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 284,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 285,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 286,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 287,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:53"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 288,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 289,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 290,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 291,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 292,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 293,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 294,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 295,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:52"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 296,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:51"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 297,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 2,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:51"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 298,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 299,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 300,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 301,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 302,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 303,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 304,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 305,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:59"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 306,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 307,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 308,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 309,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 310,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 311,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 312,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 313,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 314,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 315,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 316,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:58"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 317,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 318,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 319,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 47,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 320,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 321,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 322,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 44,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 323,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:57"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 324,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 325,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 326,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 327,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 328,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:56"
+    }
+  },
+  {
+    "model": "boxeo.contadorgolpes",
+    "pk": 329,
+    "fields": {
+      "combate": 8,
+      "numero_asalto": 3,
+      "golpe": 50,
+      "esquina": 2,
+      "tiempo": "2:55"
+    }
+  }
+]

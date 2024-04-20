@@ -1,0 +1,34 @@
+[
+  {
+    "model": "seguridad.provincia",
+    "pk": 1,
+    "fields": {
+      "nombre": "Matanzas",
+      "siglas": "MTZ"
+    }
+  },
+  {
+    "model": "seguridad.provincia",
+    "pk": 2,
+    "fields": {
+      "nombre": "Pinar del Río",
+      "siglas": "PRI"
+    }
+  },
+  {
+    "model": "seguridad.provincia",
+    "pk": 3,
+    "fields": {
+      "nombre": "Санкт-Петербург",
+      "siglas": "СП"
+    }
+  },
+  {
+    "model": "seguridad.provincia",
+    "pk": 4,
+    "fields": {
+      "nombre": "Москва",
+      "siglas": "Мос"
+    }
+  }
+]

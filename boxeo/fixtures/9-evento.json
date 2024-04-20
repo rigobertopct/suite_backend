@@ -1,0 +1,26 @@
+[
+  {
+    "model": "nomencladores.evento",
+    "pk": 1,
+    "fields": {
+      "nombre": "Prueba",
+      "pais": 1,
+      "tipoevento": 1,
+      "anno": 2024,
+      "reglamento": 1,
+      "idioma": "es"
+    }
+  },
+  {
+    "model": "nomencladores.evento",
+    "pk": 2,
+    "fields": {
+      "nombre": "Обучение",
+      "pais": 2,
+      "tipoevento": 3,
+      "anno": 2024,
+      "reglamento": 2,
+      "idioma": "ru"
+    }
+  }
+]

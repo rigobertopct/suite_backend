@@ -1,0 +1,44 @@
+[
+  {
+    "model": "deportista.deportista",
+    "pk": 1,
+    "fields": {
+      "nombre": "Боксер 1",
+      "edad": 24,
+      "peso": "57.00",
+      "estatura": null,
+      "pais": 2,
+      "sexo": null,
+      "foto": "",
+      "ci": null,
+      "anno_deporte": null,
+      "anno_nacional": null,
+      "fecha_nacimiento": null,
+      "codigo": "BX-Б1None",
+      "is_active": true,
+      "provincia": 1,
+      "deporte": 5
+    }
+  },
+  {
+    "model": "deportista.deportista",
+    "pk": 1,
+    "fields": {
+      "nombre": "Боксер 2",
+      "edad": 22,
+      "peso": "57.00",
+      "estatura": null,
+      "pais": 2,
+      "sexo": null,
+      "foto": "",
+      "ci": null,
+      "anno_deporte": null,
+      "anno_nacional": null,
+      "fecha_nacimiento": null,
+      "codigo": "BX-Б2None",
+      "is_active": true,
+      "provincia": 1,
+      "deporte": 5
+    }
+  }
+]
